@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ 
+.image{
+  width: 380px;
+  height: 200px;
+  background-image: url("/Imagefor/reactimg.jpeg");
+  background-size: 380px 200px;
+}
