@@ -16,6 +16,7 @@ import FuncApp5 from "./Components/FuncApp5/FuncApp5";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<div>
     <ClassApp />
+    
     <ClassApp2 />
     <ClassApp3 />
     <ClassApp4 />
@@ -25,6 +26,7 @@ root.render(<div>
     <FuncApp2 />
     <FuncApp3 />
     <FuncApp4 />
+        <FuncApp5 />
         <FuncApp5 />
         </div>
 </div>
