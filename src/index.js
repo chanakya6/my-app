@@ -8,6 +8,10 @@ import './index.css';
 
  import ClassApp5 from './components/ClassComp/ClassApp5';
  import FuncApp1 from './components/FunctionalComp/FuncApp1';
+ import FuncApp2 from './components/FunctionalComp/FuncApp2';
+ import FuncApp3 from './components/FunctionalComp/FuncApp3';
+ import FuncApp4 from './components/FunctionalComp/FuncApp4';
+ import FuncApp5 from './components/FunctionalComp/FuncApp5';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +22,10 @@ root.render(
 <ClassApp4/>
 <ClassApp5/>
 <FuncApp1/>
+<FuncApp2/>
+<FuncApp3/>
+<FuncApp4/>
+<FuncApp5/>
 
 
 </div>
