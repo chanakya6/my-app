@@ -11,25 +11,30 @@ import FuncApp2 from "./Components/FuncApp2/FuncApp2";
 import FuncApp3 from "./Components/FuncApp3/FuncApp3";
 import FuncApp4 from "./Components/FuncApp4/FuncApp";
 import FuncApp5 from "./Components/FuncApp5/FuncApp5";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<div>
-    <ClassApp />
+root.render(
+    <div>
+     <ClassApp />
     
     <ClassApp2 />
     <ClassApp3 />
     <ClassApp4 />
-    <ClassApp5 />
-    <div>
-    <FuncApp />
+    <ClassApp5 /> 
+    < button type = "button" class= "btn btn-primary" > Click me </button >
+
+
     <FuncApp2 />
-    <FuncApp3 />
-    <FuncApp4 />
-        <FuncApp5 />
-        <FuncApp5 />
-        </div>
-</div>
+    <Button variant="success">this is react-bootstrap button</Button>
+     <FuncApp3 />
+     <FuncApp4 />
+    <FuncApp5 />
+    <FuncApp5 />
+   </div>
+
    
 
     
