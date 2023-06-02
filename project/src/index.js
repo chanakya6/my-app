@@ -10,9 +10,9 @@ import index from './index';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-  <Accordion />
+    <Accordion />
     <index />
-    </div>
+  </div>
 );
 
 
