@@ -18,22 +18,22 @@ import Button from 'react-bootstrap/Button';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-     <ClassApp />
+        <ClassApp />
     
-    <ClassApp2 />
-    <ClassApp3 />
-    <ClassApp4 />
-    <ClassApp5 /> 
-    < button type = "button" class= "btn btn-primary" > Click me </button >
+        <ClassApp2 />
+        <ClassApp3 />
+        <ClassApp4 />
+        <ClassApp5 />
+        < button type="button" class="btn btn-primary" > Click me </button >
 
 
-    <FuncApp2 />
-    <Button variant="success">this is react-bootstrap button</Button>
-     <FuncApp3 />
-     <FuncApp4 />
-    <FuncApp5 />
-    <FuncApp5 />
-   </div>
+        <FuncApp2 />
+        <Button variant="success">this is react-bootstrap button</Button>
+        <FuncApp3 />
+        <FuncApp4 />
+        <FuncApp5 />
+        <FuncApp5 />
+    </div>
 
    
 
