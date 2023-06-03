@@ -1,0 +1,15 @@
+.para1{
+    height:225px;
+    width:75%;
+    padding:35px;
+    font-size:20px;
+}
+.para2{
+    border:2px solid black;
+    height:225px;
+    width:25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    cursor: pointer;
+}

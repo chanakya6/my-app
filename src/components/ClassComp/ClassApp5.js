@@ -5,5 +5,4 @@ class ClassApp5 extends Component{
         return <div class="image"></div>
     }
 }
-
 export default ClassApp5;
