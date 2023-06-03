@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// import ClassApp from "./components/ClassComp/ClassApp";
+import FuncApp from "./components/FunctionalComp/FuncApp";
+// import Button from "react-bootstrap/Button";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+    {/* <ClassApp /> */}
+    <FuncApp />
+    {/* <button type="button" className="btn btn-primary">
+      Primary
+    </button> */}
+    {/* <Button variant="warning">React Bootstrap Button</Button> */}
+  </div>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
