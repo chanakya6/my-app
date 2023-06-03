@@ -1,0 +1,12 @@
+th{
+    text-align: center;
+}
+th:hover{
+    text-decoration: underline;
+}
+td{
+    text-align: center;
+}
+td:hover{
+    text-decoration: underline;
+}

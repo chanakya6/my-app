@@ -18,3 +18,16 @@ function FuncApp8(){
 }
 
 export default FuncApp8; */
+
+import React from "react";
+import FuncState1 from "./States/FuncState1";
+
+function FuncApp8(){
+    return(
+        <div>
+            <FuncState1/>
+        </div>
+    )
+}
+
+export default FuncApp8;
