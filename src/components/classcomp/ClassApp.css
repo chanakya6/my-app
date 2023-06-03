@@ -1,0 +1,25 @@
+/* .p{
+    border:2px solid black;
+    color:blue;
+    font-size:25px;
+    font-weight:bold;
+    padding:10px;
+    width:700px;
+    margin-left:450px;
+}
+.image{
+    border:1px solid black;
+    width:200px;
+    height:200px;
+    margin-left:700px;
+    background-image: url("/IMAGES/me.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+.hover{
+    font-size: 20px;
+}
+.hover:hover{
+    text-decoration: underline;
+} */
