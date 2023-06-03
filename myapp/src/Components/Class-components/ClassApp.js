@@ -1,7 +1,9 @@
 import React,{Component} from "react";
+//import './ClassApp.css';
+import ClassProps from "./Props/ClassProps";
 class ClassApp extends Component{
     render(){
-        return<h1>Wlcome</h1>
+        return<ClassProps name="Sulochana" age="23" />
     }
 }
 export default ClassApp;
