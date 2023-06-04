@@ -1,11 +1,13 @@
 import React from "react";
 //  import './FuncApp.css';
-import FuncProps from './Props/FuncProps';
+// import FuncProps from './Props/FuncProps';
+import FuncState from '../FunctionalComp/Props/State/FuncState';
 
 function FuncApp1(){
    
+    return <FuncState/>
    
-    return <FuncProps/>
+    // return <FuncProps/>
     // (  
     //     // <div>
     //     // <p style= {{color:"brown",padding:"25px",marginLeft:"450px",fontSize:"20px",}}>
