@@ -12,8 +12,7 @@ import ClassLast from './Components/ClassCmpnt/ClassLast';
 import FuncOne from './Components/FunctionalComponents/FuncOne';
 import FuncComp from './Components/FunctionalComponents/FuncComp';
 import FuncThree from './Components/FunctionalComponents/FuncThree';
-import FuncAdv from './Components/ClassCmpnt/FuncAdv';
-
+import FuncAdv from './Components/FunctionalComponents/FuncAdv';
 
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,3 +29,9 @@ root.render(
     <FuncAdv/>
   </div>
 );
+
+
+
+//
+// const root=ReactDOM.createRoot(document.getElementById('root'));
+// root.render();

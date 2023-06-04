@@ -1,10 +1,11 @@
 import React,{Component} from 'react';
 import FuncOne from './FuncOne';
+import "./FuncThree.css"
 
 function FuncThree(){
     return(
         <div>
-            <h3>Getting FuncOne here</h3>
+            <h3 className='heading'>Getting FuncOne here</h3>//External Styling
             <FuncOne></FuncOne>
         </div>
     )

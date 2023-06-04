@@ -1,0 +1,4 @@
+.heading{
+    background-color: brown;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
