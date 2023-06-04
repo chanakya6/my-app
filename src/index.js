@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import ClassApp from "./Components/ClassComponenets/ClassApp";
 import ClassApp2 from "./Components/ClassComponenets/ClassApp2";
 import ClassApp1 from "./Components/ClassComponenets/ClassApp1";
@@ -11,6 +12,11 @@ import FuncApp4 from "./Components/FunctionalComponenets/FuncApp4";
 import FuncApp1 from "./Components/FunctionalComponenets/FuncApp1";
 import FuncApp2 from "./Components/FunctionalComponenets/FuncApp2";
 import FuncApp3 from "./Components/FunctionalComponenets/FuncApp3";
+// import Classinter from "./Components/ClassComponenets/Classinternal";
+// import Classstyle from "./Components/ClassComponenets/Classinline";
+import ClassAccor from "./Components/ClassComponenets/ClassAccor";
+import FuncAccor from "./Components/FunctionalComponenets/FuncAccor";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
@@ -24,6 +30,11 @@ root.render(
     <FuncApp1 />
     <FuncApp2 />
     <FuncApp3 />
+    {/* <Classinter />
+    <Classstyle /> */}
+    <ClassAccor />
+    <FuncAccor />
+    
   </div>
 );
 
