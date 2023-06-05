@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class ClassApp extends Component{
     render(){
-        return <h1>Class App Component</h1>
+        return <h1 class="h1s">Class App Component</h1>
     }
 }
 
