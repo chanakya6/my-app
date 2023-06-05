@@ -1,9 +1,11 @@
 import React from "react";
-import FunProps from "./Fun-props/FunProps";
+//import FunProps from "./Fun-props/FunProps";
+//import StateCompo from "./State-Functinal-Components/StateCompo";
+import ListCompo from './Listing-Functinal/Listcompo';
 function FunApp(){
     return<div>
-        <h1>Wlcome Functional Componet</h1>
-        <FunProps name="sulochana"  age ="10"/>
+        <ListCompo/>
+
     </div>
 
 }
