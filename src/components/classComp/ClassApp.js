@@ -1,5 +1,7 @@
 import React, {Component} from 'react'; 
-import  './ClassApp.css';
+ import  './ClassApp.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 class ClassApp extends Component{
