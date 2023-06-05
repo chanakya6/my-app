@@ -1,8 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import FirstClass from './Components/ClassComponents/FirstClass';
+import SecondClass from './Components/ClassComponents/SecondClass';
+import ThreeClass from './Components/ClassComponents/ThreeClass';
+import ForthClass from './Components/ClassComponents/ForthClass';
+import FiveClass from './Components/ClassComponents/FiveClass';
+import Firstfun from './Components/FunctionComponents/Firstfun';
+import Secondfun from './Components/FunctionComponents/Secondfun';
+import Threefun from './Components/FunctionComponents/Threefun';
+import Forthfun from './Components/FunctionComponents/Firstfun';
+import Fivefun from './Components/FunctionComponents/Fivefun';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- <h1>hussain</h1>
+ <div>
+    <FirstClass />
+    <SecondClass />
+    <ThreeClass />
+    <ForthClass />
+    <FiveClass />
+    <Firstfun />
+    <Secondfun />
+    <Threefun />
+    <Forthfun />
+    <Fivefun />
+ </div>
 );
