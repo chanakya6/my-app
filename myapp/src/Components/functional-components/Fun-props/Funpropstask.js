@@ -1,10 +1,10 @@
 import React from "react";
 const  FunProps= ({name,age,color,place})=>{
     return  <div>
-        <h1> Name is :{name}</h1>
-        <h1>Age is :{age}</h1>
-        <h1>Color is :{color}</h1>
-        <h1>Place  is :{place}</h1>
+        <p style={{color:"blue"}}> Name is :{name}</p>
+        <p style={{color:"blue"}}>Age is :{age}</p>
+        <p  style={{color:"blue"}}>Color is :{color}</p>
+        <p  style={{color:"blue"}}>Place  is :{place}</p>
         </div>
 }
 export default FunProps;
