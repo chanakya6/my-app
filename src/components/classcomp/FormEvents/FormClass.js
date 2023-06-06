@@ -20,7 +20,7 @@ class FormClass extends Component {
     onSubmitClass=(event)=>{
         event.preventDefault();
         !this.state.emailAddress && !this.state.passwordAddress 
-        ? alert("please enter the email and password") : alert(this.state.passwordAddress);
+        ? alert("please enter the email and password") : alert(this.state.emailAddress);
     };
   render() {
     return (
