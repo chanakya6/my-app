@@ -96,7 +96,7 @@
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////// */
 
- /* body{
+/*  body{
     border:1px solid black;
     width:100%;
     height:900px;
@@ -159,6 +159,80 @@ h1{
     text-align: center;
     text-shadow: 0px 0px 2px black;
 } */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.body{
+    border:2px solid black;
+    width:100%;
+    height:900px;
+    
+}
+.middle_body{
+    border:2px solid black;
+    width:300px;
+    height:auto;
+    padding:25px;
+    margin: 100px auto;
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.text input{
+    width:250px;
+    height:25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.date_age{
+    display: flex;
+    justify-content: space-between;
+}
+.date_age .date input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.date_age .age input{
+    width:80px;
+    height:25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.email input{
+    width:250px;
+    height:25px;
+    outline: none;
+    border: none;
+    border-bottom: 0.1px solid black;
+    cursor: pointer;
+}
+.password input{
+    width:250px;
+    height:25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.tel input{
+    width:250px;
+    height:25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+}
 
 
 
