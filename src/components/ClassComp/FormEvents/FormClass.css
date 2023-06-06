@@ -1,0 +1,14 @@
+.ofContainer{
+     
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.divContainer{
+
+    display: flex;
+}

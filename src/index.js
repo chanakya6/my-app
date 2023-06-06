@@ -17,8 +17,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import FuncApp1 from './components/FunctionalComp/FuncApp1';
 // import FuncApp from './components/FunctionalComp/FuncApp';
 // import FuncApp1 from './components/FunctionalComp/FuncApp1'
-import ClassApp1 from './components/ClassComp/ClassApp1';
-import FuncApp1 from './components/FunctionalComp/FuncApp1';
+// import ClassApp1 from './components/ClassComp/ClassApp1';
+// import FuncApp1 from './components/FunctionalComp/FuncApp1';
+import App from './components/FunctionalComp/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,8 +40,9 @@ root.render(
 <FuncApp1/> 
  <FuncApp/> */}
  {/* <FuncApp1/> */}
- <ClassApp1/>
- <FuncApp1/>
+ {/* <ClassApp1/>
+ <FuncApp1/> */}
+ <App/>
 </div>
   
 );

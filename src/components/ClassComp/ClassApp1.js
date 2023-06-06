@@ -9,7 +9,7 @@ class ClassApp1 extends Component {
         // return <p className="c"> ICON of the REACT-JS</p>
        return (
     
-       <ClassState name="Laxman" age="26" isSuccess={true}/>
+       <ClassState isSuccess={true}/>
        
        )
     }
