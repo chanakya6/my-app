@@ -22,6 +22,7 @@ root.render(
     <h1>3.Arvind</h1>
     <h1>4.Venkat</h1>
     <h1>5.Chanakya</h1>
+    <h1>6.React</h1>
     <button type="button" class="btn btn-primary">
       primary
     </button>
