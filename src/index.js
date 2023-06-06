@@ -2,17 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import AllCollapseExample from "./Bootstrap/Accordian";
-import Button from "react-bootstrap/Button";
+// import AllCollapseExample from "./Bootstrap/Accordian";
+// import Button from "react-bootstrap/Button";
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
+import App from "./Components/App";
 const root=ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <div>
-   <AllCollapseExample/>
-  <Button>react button</Button>
-  </div>
-);
+root.render(<App/> );
+  // <div>
+  //  <AllCollapseExample/>
+  // <Button>react button</Button>
+  // </div>
+
 
 // import ClassOne from "./Components/ClassCmpnt/ClassOne";
 // import ClassTwo from './Components/ClassCmpnt/ClassTwo';
