@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+const fruits = ['apple','banana','mango','watermelon']
 const FormFun3=() =>{
 
     const [emailAdd,setEmailAdd] = useState('');
@@ -11,6 +11,7 @@ const FormFun3=() =>{
         !emailAdd&&!password ? alert('empty value') :alert(emailAdd)
     }
     return (
+        <div>
     <form onSubmit={onSubmitFun}>
    
  <label htmlFor="emailAdd"> email
@@ -24,6 +25,15 @@ const FormFun3=() =>{
  </label><br></br>
  <button>Submit</button>
 </form>
+<select>
+    {
+        fruits.map((option,index) =>
+        {
+            return(<option>{option}</option>)
+        }
+    )}
 
+</select>
+</div>
 )}
 export default FormFun3;
