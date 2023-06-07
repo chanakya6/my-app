@@ -1,0 +1,14 @@
+nav ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+    background-color: black;
+    list-style: none;
+}
+
+li{
+    color:beige;
+    font-size: 28px;
+}

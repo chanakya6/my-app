@@ -10,12 +10,12 @@ const FormFunc =()=>{
     const [email,setEmail]=useState('');
     const [phone,setPhone]=useState('');
     const [photo,setPhoto]=useState('');
-    const onSubmitFunc =(event)=>{
+    const onSubmitFunc = (event) => {
 
         event.preventDefault();
         !this.state.userName && !this.state.Fname.date.email.phone
-        ? alert("Please enter all the below information")
-        : alert(this.state.userName.Fname.date.email.phone);
+            ? alert("Please enter all the below information")
+            : alert(this.state.userName.Fname.date.email.phone);
     };
 
     return (
