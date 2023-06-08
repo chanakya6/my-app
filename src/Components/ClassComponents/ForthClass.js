@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 class ForthClass extends Component{
-render(){
+render() {
     return <h1 style={{color:"yellow"}}>I AM FROM..</h1>;
 }
 }

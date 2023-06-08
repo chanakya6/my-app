@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 class ThreeClass extends Component{
-render(){
+render() {
     return <h1 >HUSSAIN..</h1>;
 }
 }

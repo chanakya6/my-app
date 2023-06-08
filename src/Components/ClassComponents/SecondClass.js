@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 const MyStyle= {color:"blue"}
 class SecondClass extends Component{
-render(){
+render() {
     return <h1 style={MyStyle}>I AM..</h1>;
 }
 }
