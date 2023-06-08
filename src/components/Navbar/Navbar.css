@@ -1,0 +1,19 @@
+/* nav {
+    display:flex;  
+        flex-wrap: wrap;
+        align-content: center;
+        /*  justify-content: space-around; */
+        /* align-items: center;
+        height: 100px;
+        background-color:#fff0e6; */
+/* }  */
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    list-style: none;
+    justify-content:space-around ;
+    align-items: center;
+    background-color:#fff0e6; 
+}

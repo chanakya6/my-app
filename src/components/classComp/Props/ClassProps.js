@@ -8,7 +8,7 @@ class ClassProps extends Component{
 
     }
     render() {
-        return <h1>{this.props.name}</h1>
+        return <h1>{this.props.name} age is {this.props.age}</h1>
     }
 
 }
