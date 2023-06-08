@@ -6,4 +6,4 @@ const LaptopTablet = () => {
   )
 }
 
-export default Laptop&Tablet
+export default LaptopTablet
