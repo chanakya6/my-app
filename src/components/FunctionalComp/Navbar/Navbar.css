@@ -1,0 +1,30 @@
+/* nav{
+display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+height:50px;
+background-color:#111432
+}
+ul{
+   display:flex;
+   flex-direction:row;
+   color:white;
+   list-style: none;
+} */
+
+nav ul{
+   display: flex;
+   list-style: none;
+   justify-content: space-around;
+   /* height: 35vh; */
+   align-items: center;
+   height: 15vh;
+   background-color: #111432;
+
+}
+
+li{
+   color:white
+}

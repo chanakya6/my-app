@@ -1,9 +1,25 @@
 import React from "react";
-// import FormClass from "./ClassComp/FormsEvents/FormClass";
-import FormFunc from "./FunctionalComp/FormEvents/FormFunc";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./FunctionalComp/Navbar/Navbar";
+import About from "./FunctionalComp/Pages/About";
+import Home from "./FunctionalComp/Pages/Home";
+import Contact from "./FunctionalComp/Pages/Contact";
+import Projects from "./FunctionalComp/Pages/Projects";
+import PageNotFound from "./FunctionalComp/Pages/PageNotFound";
 
 const App = () => {
-  return <FormFunc />;
+  return (
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutUs" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </div>
+  );
 };
 
 export default App;
