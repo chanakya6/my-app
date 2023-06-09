@@ -8,16 +8,28 @@
   ],
   "todos": [
     {
-      "id": 1,
       "userId": 1,
-      "title": "Seshareddy and Mani has to go Tirupathi",
-      "completed": true
+      "title": "Chanakyaaaa has to finish reactjs and redux class within 2days",
+      "completed": true,
+      "id": 1
     },
     {
       "userId": 1,
       "title": "Manikanta has to finish reactjs and redux class",
-      "completed": false,
+      "completed": true,
       "id": 2
+    },
+    {
+      "userId": "1",
+      "title": "Seshugoud has to give party",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "userId": "2",
+      "title": "Neelima has to do today's assignment",
+      "completed": true,
+      "id": 4
     }
   ],
   "comments": [

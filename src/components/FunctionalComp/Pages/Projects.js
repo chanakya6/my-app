@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button, Table } from "react-bootstrap";
 import axios from "axios";
 
@@ -6,6 +7,7 @@ const Projects = () => {
   const [result, setResult] = useState([]);
   // const [counter1, setCounter1] = useState(0);
   // const [counter2, setCounter2] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     getTodoData();
@@ -15,17 +17,17 @@ const Projects = () => {
     let response = await axios.get(" http://localhost:3001/todos");
     setResult(response.data);
   };
-  const createNewRecord = async () => {
-    let newRecord = {
-      userId: 1,
-      title: "Chanakya has to finish reactjs class",
-      completed: false,
-    };
+  // const createNewRecord = async () => {
+  //   let newRecord = {
+  //     userId: 1,
+  //     title: "Chanakya has to finish reactjs class",
+  //     completed: false,
+  //   };
 
-    let response = await axios.post(" http://localhost:3001/todos", newRecord);
-    console.log(response);
-    getTodoData();
-  };
+  //   let response = await axios.post(" http://localhost:3001/todos", newRecord);
+  //   console.log(response);
+  //   getTodoData();
+  // };
 
   const deleteRecord = async (todoId) => {
     let response = await axios.delete(`http://localhost:3001/todos/${todoId}`);
@@ -33,32 +35,32 @@ const Projects = () => {
     getTodoData();
   };
 
-  const putRecord = async (todoId) => {
-    let updateRecord = {
-      title: "Chanakya has to finish reactjs and redux class",
-      completed: false,
-    };
+  // const putRecord = async (todoId) => {
+  //   let updateRecord = {
+  //     title: "Chanakya has to finish reactjs and redux class",
+  //     completed: false,
+  //   };
 
-    let response = await axios.put(
-      `http://localhost:3001/todos/${todoId}`,
-      updateRecord
-    );
-    console.log(response);
-    getTodoData();
-  };
+  //   let response = await axios.put(
+  //     `http://localhost:3001/todos/${todoId}`,
+  //     updateRecord
+  //   );
+  //   console.log(response);
+  //   getTodoData();
+  // };
 
-  const patchRecord = async (todoId) => {
-    let updateRecord = {
-      title: "Manikanta has to finish reactjs and redux class",
-    };
+  // const patchRecord = async (todoId) => {
+  //   let updateRecord = {
+  //     title: "Manikanta has to finish reactjs and redux class",
+  //   };
 
-    let response = await axios.patch(
-      `http://localhost:3001/todos/${todoId}`,
-      updateRecord
-    );
-    console.log(response);
-    getTodoData();
-  };
+  //   let response = await axios.patch(
+  //     `http://localhost:3001/todos/${todoId}`,
+  //     updateRecord
+  //   );
+  //   console.log(response);
+  //   getTodoData();
+  // };
 
   return (
     // <div>
@@ -82,7 +84,9 @@ const Projects = () => {
     <div>
       <Button
         onClick={() => {
-          createNewRecord();
+          // createNewRecord();
+          // window.location.href = "/addTodo";
+          navigate("/addTodo");
         }}
       >
         Add New Record
@@ -94,7 +98,7 @@ const Projects = () => {
             <td>USERID</td>
             <td>Todo Title Name</td>
             <td>isCompleted</td>
-            <td colSpan={5} style={{ textAlign: "center" }}>
+            <td colSpan={4} style={{ textAlign: "center" }}>
               Operations
             </td>
           </tr>
@@ -110,19 +114,28 @@ const Projects = () => {
                 <td>
                   <Button
                     variant="warning"
-                    onClick={() => putRecord(eachTodo.id)}
+                    onClick={() =>
+                      navigate(`/editTodo/${eachTodo.id}`, {
+                        state: {
+                          id: eachTodo.id,
+                          userId: eachTodo.userId,
+                          title: eachTodo.title,
+                          isCompleted: eachTodo.completed,
+                        },
+                      })
+                    }
                   >
-                    Update-Put
+                    Update
                   </Button>
                 </td>
-                <td>
+                {/* <td>
                   <Button
                     variant="info"
                     onClick={() => patchRecord(eachTodo.id)}
                   >
                     Update-Patch
                   </Button>
-                </td>
+                </td> */}
                 <td>
                   <Button
                     variant="danger"
