@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import FirstClass from './Components/ClassComponents/First-Class';
-// import SecondClass from './Components/ClassComponents/SecondClass';
+import SecondClass from './Components/ClassComponents/SecondClass';
 // import ThreeClass from './Components/ClassComponents/ThreeClass';
 // import ForthClass from './Components/ClassComponents/ForthClass';
 // import FiveClass from './Components/ClassComponents/FiveClass';
@@ -11,21 +11,23 @@ import Firstfun from './Components/FunctionComponents/Firstfun';
 // import Threefun from './Components/FunctionComponents/Threefun';
 // import Forthfun from './Components/FunctionComponents/Firstfun';
 // import Fivefun from './Components/FunctionComponents/Fivefun';
-import ClassAccd from './Components/ClassComponents/Accordion/ClassAccd'
+// import ClassAccd from './Components/ClassComponents/Accordion/ClassAccd'
+import ListApp from './Components/FunctionComponents/ListApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render (
  <div>
     <FirstClass />
-    {/* <SecondClass />
-    <ThreeClass />
+     <SecondClass /> 
+    {/* <ThreeClass />
     <ForthClass />
-    <FiveClass /> */}
-    <Firstfun />
+    <FiveClass />*/} 
+    <Firstfun /> 
     {/* <Secondfun />
     <Threefun />
     <Forthfun />
     <Fivefun /> */}
-    <ClassAccd />
+    {/* <ClassAccd /> */}
+    <ListApp />
 </div>
 );
