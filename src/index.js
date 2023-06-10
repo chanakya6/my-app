@@ -1,9 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import App from "./components/App";
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 /* import ClassApp1 from './components/classcomp/ClassApp1';
 import ClassApp2 from './components/classcomp/ClassApp2';
@@ -24,16 +22,20 @@ import FuncApp4 from "./components/functioncomp/FuncApp4"; */
 /* import ClassApp6 from './components/classcomp/ClassApp6'; */
 /* import FuncApp8 from './components/functioncomp/FuncApp8'; */
 /* import ClassApp7 from './components/classcomp/ClassApp7';*/
-/* import FuncApp8 from './components/functioncomp/FuncApp8'; */ 
+/* import FuncApp8 from './components/functioncomp/FuncApp8'; */
 /* import ClassApp7 from './components/classcomp/ClassApp7'; */
 /* import FuncList from './components/functioncomp/List/FuncList'; */
+// import TodoList from './components/functioncomp/TodoList';///////////
+import { BrowserRouter } from "react-router-dom";
+import App from "./components/App";
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <App/>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    {/* <TodoList /> */}
     {/* <ClassApp1 />
     <ClassApp2 />
     <ClassApp3 />
@@ -53,10 +55,8 @@ root.render(
     {/* <ClassApp6/> */}
     {/* <FuncApp8/> */}
     {/* <ClassApp7/> */}
-   {/* <FuncApp8/> */}
-   {/* <ClassApp7/> */}
-   {/* <FuncList/> */}
+    {/* <FuncApp8/> */}
+    {/* <ClassApp7/> */}
+    {/* <FuncList/> */}
   </div>
 );
-
-

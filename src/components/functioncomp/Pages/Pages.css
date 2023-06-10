@@ -1,0 +1,559 @@
+/* Home.js ///////////////////////////////////////////////////////////////////////////////////// */
+.Home {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+}
+
+.gym_image {
+    width: 100%;
+    height: auto;
+    margin: 1px auto;
+    background-image: url("/IMAGES/gymMainPhoto.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 130% 1400px;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.para {
+    padding: 150px 80px 30px 80px;
+    color: white;
+}
+
+/* ///////////// for scrolling ////////////////////////// */
+@keyframes marquee {
+    0% {
+        transform: translateX(450%);
+    }
+
+    100% {
+        transform: translateX(-450%);
+    }
+}
+
+.marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+    font-size: 30px;
+    color: rgb(239, 230, 231);
+}
+
+.marquee-text:hover {
+    animation-play-state: paused;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* //////////////// scroll ended /////////////////////////////// */
+
+.para1_text {
+    padding: 30px 80px;
+}
+
+.para1_text u {
+    color: cyan;
+    font-weight: 600;
+}
+
+.para1_text u:hover {
+    font-size: 30px;
+    transition: 700ms;
+    font-weight: bold;
+}
+
+.para1_text ul {
+    padding: 0px 100px;
+    list-style-type: square;
+}
+
+.para1_text ul li {
+    color: white;
+
+}
+
+.footer {
+    border: 1px solid white;
+    width: 100%;
+    height: 400px;
+    background-color: #25011b;
+}
+
+.allfooters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer1 {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.footer2 {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.footer3 {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.footer4 {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.footer_heading {
+    color: white;
+    text-align: center;
+}
+
+.footer_heading:hover {
+    text-decoration: underline;
+    font-size: 26px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.footer_inner {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.footer_contacts {
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    color: white;
+    display: flex;
+    padding: 0px 380px;
+    justify-content: space-around;
+}
+
+.social {
+    cursor: pointer;
+}
+
+.social:hover {
+    text-shadow: 0px 0px 3px black;
+}
+
+/* Aboutus.js  /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.aboutbody {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    background-image: url("/IMAGES/gymMainPhoto.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 130% 1400px;
+    background-attachment: fixed;
+    opacity: 0.8;
+    padding-top: 120px;
+}
+
+.aboutgymmm {
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.title:hover {
+    font-size: 41px;
+    transition: 300ms;
+}
+
+.titlepara1 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.titlepara2 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+.titlepara3 {
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleimage {
+    border: 1px solid white;
+    width: 30%;
+    height: 400px;
+    background-image: url("/IMAGES/brahmi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105% 410px;
+}
+
+.titleimage:hover {
+    background-size: 100% 400px;
+    transition: 600ms;
+}
+
+.titleimage1 {
+    width: 65%;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+/* Contact.js ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contactbody {
+    width: 100%;
+    height: auto;
+    background-image: url("/IMAGES/gymMainPhoto.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 130% 1400px;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.contactbox {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+}
+
+.flex1 {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex2 {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex3 {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex4 {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fl1 {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    background-image: url("/IMAGES/mygym1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.fl1:hover {
+    background-size: 310px 310px;
+    transition: 500ms;
+}
+
+.fl2 {
+    width: 800px;
+    height: 300px;
+    padding: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.fl3 {
+    width: 800px;
+    height: 300px;
+    padding: 70px 100px 70px 250px;
+    font-size: 25px;
+    color: white;
+}
+
+.fl4 {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    background-image: url("/IMAGES/mygym2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.fl4:hover {
+    background-size: 310px 310px;
+    transition: 500ms;
+}
+
+.fl5 {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    background-image: url("/IMAGES/mygym3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.fl5:hover {
+    background-size: 310px 310px;
+    transition: 500ms;
+}
+
+.fl6 {
+    width: 800px;
+    height: 300px;
+    padding: 70px 100px;
+    font-size: 25px;
+    color: white;
+}
+
+.fl7 {
+    width: 800px;
+    height: 300px;
+    padding: 70px 100px;
+    font-size: 25px;
+    color: white;
+}
+
+.fl8 {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    background-image: url("/IMAGES/mygym4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.fl8:hover {
+    background-size: 310px 310px;
+    transition: 500ms;
+}
+
+
+/* Project.js ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.todo_block {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 550px;
+}
+
+.ProjectTable {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 150px;
+}
+
+
+/* AddTodo.js /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.addTodo {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+}
+
+
+/* EditTodo.js /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.editTodo {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+}
+
+
+/* Login.js /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.loginback {
+    width: 100%;
+    height: 900px;
+    background-image: url("/IMAGES/gymMainPhoto.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 130% 1400px;
+    background-attachment: fixed;
+    opacity: 0.8;
+    padding: 100px;
+}
+
+.llllll {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+.llllll .body {
+    width: 100%;
+    height: 600px;
+}
+
+.middle_body {
+    border: 2px solid white;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    margin: 100px auto;
+}
+
+.head {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+}
+
+.text input {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.date_age {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date_age .date input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.date_age .age input {
+    width: 80px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.email input {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 0.1px solid white;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.password input {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.tel input {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.button {
+    text-align: center;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.dropdown {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+}
+
+.remember span {
+    color: white;
+}
+
+
+/* Page not found.js /////////////////////////////////////////////////////////////////////////////////////// */
+
+.pnfbody {
+    width: 100%;
+    height: 700px;
+    padding-top: 60px;
+}
+
+.pnf_image {
+    width: 700px;
+    height: 650px;
+    margin: auto;
+    background-image: url("/IMAGES/error.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700px 600px;
+}

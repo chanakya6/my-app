@@ -162,85 +162,96 @@ h1{
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////// */
 
-.body{
-    border:2px solid black;
-    width:100%;
-    height:900px;
-    
+.body {
+    border: 2px solid black;
+    width: 100%;
+    height: 900px;
+
 }
-.middle_body{
-    border:2px solid black;
-    width:300px;
-    height:auto;
-    padding:25px;
+
+.middle_body {
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+    padding: 25px;
     margin: 100px auto;
 }
-.head{
+
+.head {
     text-align: center;
     font-size: 25px;
     text-decoration: underline;
 }
-.text input{
-    width:250px;
-    height:25px;
+
+.text input {
+    width: 250px;
+    height: 25px;
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     cursor: pointer;
 }
-.date_age{
+
+.date_age {
     display: flex;
     justify-content: space-between;
 }
-.date_age .date input{
+
+.date_age .date input {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     cursor: pointer;
 }
-.date_age .age input{
-    width:80px;
-    height:25px;
+
+.date_age .age input {
+    width: 80px;
+    height: 25px;
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     cursor: pointer;
 }
-.email input{
-    width:250px;
-    height:25px;
+
+.email input {
+    width: 250px;
+    height: 25px;
     outline: none;
     border: none;
     border-bottom: 0.1px solid black;
     cursor: pointer;
 }
-.password input{
-    width:250px;
-    height:25px;
+
+.password input {
+    width: 250px;
+    height: 25px;
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     cursor: pointer;
 }
-.tel input{
-    width:250px;
-    height:25px;
+
+.tel input {
+    width: 250px;
+    height: 25px;
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     cursor: pointer;
 }
-.button{
+
+.button {
     text-align: center;
 }
 
+.radio {
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
-
-
-
-
-
-
-
+.dropdown {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
