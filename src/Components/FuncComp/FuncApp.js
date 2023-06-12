@@ -1,6 +1,7 @@
 import React from 'react';
 import ListComp from './Listings/ListComp';
 import LIstNum from './Listings/LIstNum';
+import ListObj from "./Listings/ListObj";
 
 import FuncHeader from './FuncHeader';
 import FuncProps from './Props/FuncProps';
@@ -26,6 +27,7 @@ function FuncApp() {
         <FuncStates />
         <ListComp />
         <LIstNum />
+        <ListObj />
     
      </div>  
     );
