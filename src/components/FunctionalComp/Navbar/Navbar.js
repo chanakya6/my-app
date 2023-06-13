@@ -25,6 +25,9 @@ const Navbar = () => {
         <li>
           <Link to="/projects">Projects</Link>
         </li>
+        <li>
+          <Link to="/reduxApp">Redux Component</Link>
+        </li>
       </ul>
     </nav>
   );
