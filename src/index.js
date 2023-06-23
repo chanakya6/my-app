@@ -15,6 +15,8 @@ import { BrowserRouter } from 'react-router-dom';
 // import ClassAccd from './Components/ClassComponents/Accordion/ClassAccd'
 // import ListApp from './Components/FunctionComponents/ListApp';
 import App from './Components/App';
+import store from './Components/FunctionComponents/Redux/store';
+import { Provider } from 'react-redux';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -32,9 +34,11 @@ root.render (
     <Fivefun /> */}
     {/* <ClassAccd /> */}
     {/* <ListApp /> */}
+    <Provider store={store}>
     <BrowserRouter>
     <App />
     </BrowserRouter>
+    </Provider>
 </div>
 );
 

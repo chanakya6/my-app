@@ -1,9 +1,11 @@
 import React, { useState,useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button, Table } from 'react-bootstrap';
 import axios from 'axios';
 const Project = () => {
   const [result,setResult] = useState([]);
   // const [counter, setCounter] = useState();
+  const navigate = useNavigate();
   useEffect(() =>{
     getTodoData();
   },[]);
@@ -22,7 +24,10 @@ const Project = () => {
     };
   return (
     <div>
-      <Button onClick= {()=>{createNew()}}>add new</Button>
+      <Button onClick= {() =>{
+        // createNew();
+        navigate("/addToDo");
+      }}>add new</Button>
     <Table striped variant="dark" size="sm">
       <thead>
         <tr>
@@ -40,11 +45,25 @@ const Project = () => {
           <td>{eachTodo.userId}</td>
           <td>{eachTodo.title}</td>
           <td>{eachTodo.completed ? "yes":"no"}</td>
+          <td>
+          <Button variant="warning" onClick={()=>navigate(`/EditUser/$
+          {EditUser.id}`,{
+           state:{ 
+            id: eachTodo.id,
+            userId: eachTodo.userId,
+            title:eachTodo.title,
+            iscompleted:eachTodo.completed,
+           },
+          })}>
+            update
+          </Button>
+          </td>
         </tr>
           ))
         ):(
         <tr>
           <td colSpan={4} style={{textAlign:"center"}}>No Data</td>
+         
           </tr>
         )};
         
